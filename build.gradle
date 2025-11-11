@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.2'  // Ubah ke versi ini
+        // NOTE: Do not place your application dependencies here
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
